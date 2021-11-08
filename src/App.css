@@ -1,0 +1,38 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.contenedor{
+  background: #f1f1f1;
+  justify-content: center;
+}
+
+.app-navbar {
+  background-color: #181818;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu{
+  display: flex;
+  padding: 10px;
+}
+.navbar-menu p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar-img{
+  display: flex;
+  align-items: center;
+}
+.navbar-img h1{
+  margin-right: 50px;
+}
+.navbar-img img{
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+}
